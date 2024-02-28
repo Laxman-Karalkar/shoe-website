@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gridcontainer {
+            background-color: slategray;
+            height: 200vh;
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        .griditem {
+
+            background-color: lightcoral;
+            color: black;
+            margin: 5px;
+        }
+
+        #b1 {
+            background-color: lightblue;
+            grid-row: 1/2;
+            grid-column: 1/2;
+        }
+
+        #b2 {
+            background-color: lightcyan;
+            grid-row: 3/4;
+        }
+
+        #b3 {
+            background-color: lightgray;
+        }
+
+        #b4 {
+            background-color: lightskyblue;
+        }
+
+        #b5 {
+            background-color: lightseagreen;
+        }
+
+        #b6 {
+            background-color: lightgoldenrodyellow;
+        }
+
+        img {
+            margin: 20px 250px;
+            border: 5px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gridcontainer">
+        <div class="griditem" id="b1">
+            <img src="shoe11.jpg" height="250px"><br>
+        </div>
+        <div class="griditem" id="b2">
+            <img src="shoe10.jpg" height="250px"><br>
+        </div>
+        <div class="griditem" id="b3">
+            <p>box1</p>
+        </div>
+        <div class="griditem" id="b4">
+            <img src="shoe12.jpg" height="250px"><br>
+        </div>
+
+        <div class="griditem" id="b5">
+            <p>box2</p>
+        </div>
+        <div class="griditem" id="b6">
+            <p>box3</p>
+        </div>
+        <div class="griditem" id="b5">
+            <img src="shoe12.jpg" height="250px"><br>
+        </div>
+        <div class="griditem" id="b6">
+            <p>box4</p>
+        </div>
+        <div class="griditem" id="b5">
+            <img src="shoe12.jpg" height="250px"><br>
+        </div>
+        <div class="griditem" id="b6">
+            <p>box5</p>
+        </div>
+    </div>
+</body>
+
+</html>
